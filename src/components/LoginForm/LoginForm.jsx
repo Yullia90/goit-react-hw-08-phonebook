@@ -23,8 +23,8 @@ export const LoginForm = () => {
   const handleSubmit = (values, { resetForm }) => {
     dispatch(logIn(values));
     resetForm();
-    };
-    
+  };
+
   return (
     <Container>
       <Formik initialValues={initialValues} onSubmit={handleSubmit}>
