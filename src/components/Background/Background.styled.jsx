@@ -40,7 +40,7 @@ const animatePlane = keyframes`
 
 export const PlaneImg = styled.img`
   position: absolute;
-  scale: 0.25;
+  scale: 0.4;
   pointer-events: none;
   animation: ${animatePlane} 60s linear infinite;
 `;

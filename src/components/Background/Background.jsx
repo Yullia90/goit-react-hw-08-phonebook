@@ -29,7 +29,7 @@ export const Background = () => {
         </Set>
       </Leaves>
       <ImgBg src={bg} alt="bg" />
-      <PlaneImg src={plane} alt="plane" />
+      <PlaneImg src={plane} alt="plane" width={1200} height={600} />
     </Section>
   );
 };
