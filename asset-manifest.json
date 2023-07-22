@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.f8cbbec9.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.a1f5b907.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.7c87359a.js",
     "static/media/bg.jpg": "/goit-react-hw-08-phonebook/static/media/bg.a8d3943c997892272645.jpg",
+    "static/media/skydriver_04.png": "/goit-react-hw-08-phonebook/static/media/skydriver_04.f2f74f43b594737d5188.png",
+    "static/media/skydriver_01.png": "/goit-react-hw-08-phonebook/static/media/skydriver_01.b3f39c3c1068812f1107.png",
+    "static/media/skydriver_02.png": "/goit-react-hw-08-phonebook/static/media/skydriver_02.630f5e24e43bdc9ff738.png",
     "static/media/plane.png": "/goit-react-hw-08-phonebook/static/media/plane.469f6f648a3c04b6a169.png",
+    "static/media/skydriver_03.png": "/goit-react-hw-08-phonebook/static/media/skydriver_03.52f8f10c92ed2005d37d.png",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "static/media/getFetch.cjs": "/goit-react-hw-08-phonebook/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.f8cbbec9.css.map": "/goit-react-hw-08-phonebook/static/css/main.f8cbbec9.css.map",
-    "main.a1f5b907.js.map": "/goit-react-hw-08-phonebook/static/js/main.a1f5b907.js.map"
+    "main.7c87359a.js.map": "/goit-react-hw-08-phonebook/static/js/main.7c87359a.js.map"
   },
   "entrypoints": [
     "static/css/main.f8cbbec9.css",
-    "static/js/main.a1f5b907.js"
+    "static/js/main.7c87359a.js"
   ]
 }
