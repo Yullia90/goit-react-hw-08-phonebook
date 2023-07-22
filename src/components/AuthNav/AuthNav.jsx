@@ -1,7 +1,7 @@
 import { LinkNav } from "./AuthNav.styled";
 import{useTranslation} from "react-i18next"
 
-export const AuthNAv = () => {
+export const AuthNav = () => {
     const { t } = useTranslation();
     return (
         <div>

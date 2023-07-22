@@ -22,18 +22,7 @@ export const ImgBg = styled.img`
   pointer-events: none;
 `;
 
-export const TressImg = styled.img`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-  pointer-events: none;
-`;
-
-const animateGirl = keyframes`
+const animatePlane = keyframes`
   0% {
       transform: translateX(calc(100% + 100vw))
     }
@@ -49,11 +38,11 @@ const animateGirl = keyframes`
     
 `;
 
-export const GirlImg = styled.img`
+export const PlaneImg = styled.img`
   position: absolute;
-  scale: 0.65;
+  scale: 0.35;
   pointer-events: none;
-  animation: ${animateGirl} 20s linear infinite;
+  animation: ${animatePlane} 60s linear infinite;
 `;
 
 export const Leaves = styled.div`
@@ -71,26 +60,26 @@ const animateTress = keyframes`
     0% {
         opacity: 0;
         top: -10%;
-        transform: translateX(20px) rotate(0deg)
+        transform: translateX(10px) rotate(0deg)
     }
     10% {
         opacity: 1;
     }
     20% {
-      transform: translateX(-20px) rotate(45deg)
+      transform: translateX(-10px) rotate(45deg)
     }
     40% {
-      transform: translateX(-20px) rotate(90deg)
+      transform: translateX(-10px) rotate(90deg)
     }
     60% {
-      transform: translateX(20px) rotate(180deg)
+      transform: translateX(10px) rotate(180deg)
     }
     80% {
-      transform: translateX(-20px) rotate(45deg)
+      transform: translateX(-10px) rotate(45deg)
     }
     100% {
       top: 110%;
-      transform: translateX(20px) rotate(225deg)
+      transform: translateX(10px) rotate(225deg)
     }
     
 `;
