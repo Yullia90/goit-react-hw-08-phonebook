@@ -22,13 +22,13 @@ export const Home = () => {
 
       <WrapperSocial>
         <SocialLi>
-          <SocialLink href="https://t.me/nechaev_roma" target="_blanc">
+          <SocialLink href="https://t.me/tsarenko_yuliia" target="_blanc">
             <RiTelegramLineSt />
           </SocialLink>
         </SocialLi>
         <SocialLi>
           <SocialLink
-            href="https://github.com/Roman-Nechaev/goit-react-hw-08-phonebook"
+            href="https://github.com/Yullia90/goit-react-hw-08-phonebook"
             target="_blanc"
           >
             <RiGithubFillSt />
@@ -36,7 +36,7 @@ export const Home = () => {
         </SocialLi>
         <SocialLi>
           <SocialLink
-            href="https://www.linkedin.com/in/roman-kolenko/"
+            href="https://www.linkedin.com/in/yuliia-tsarenko/"
             target="_blanc"
           >
             <RiLinkedinBoxLinSt />
