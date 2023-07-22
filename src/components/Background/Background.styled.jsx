@@ -40,7 +40,7 @@ const animatePlane = keyframes`
 
 export const PlaneImg = styled.img`
   position: absolute;
-  scale: 0.35;
+  scale: 0.25;
   pointer-events: none;
   animation: ${animatePlane} 60s linear infinite;
 `;
@@ -54,6 +54,7 @@ export const Leaves = styled.div`
   justify-content: center;
   z-index: 10;
   pointer-events: none;
+  
 `;
 
 const animateTress = keyframes`
@@ -66,20 +67,20 @@ const animateTress = keyframes`
         opacity: 1;
     }
     20% {
-      transform: translateX(-10px) rotate(45deg)
+      transform: translateX(-10px) rotate(0deg)
     }
     40% {
-      transform: translateX(-10px) rotate(90deg)
+      transform: translateX(-10px) rotate(60deg)
     }
     60% {
-      transform: translateX(10px) rotate(180deg)
+      transform: translateX(10px) rotate(90deg)
     }
     80% {
       transform: translateX(-10px) rotate(45deg)
     }
     100% {
       top: 110%;
-      transform: translateX(10px) rotate(225deg)
+      transform: translateX(10px) rotate(90deg)
     }
     
 `;
